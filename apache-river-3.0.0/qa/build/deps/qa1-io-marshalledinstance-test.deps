@@ -1,0 +1,11 @@
+org/apache/river/test/spec/io/marshalledinstance/ConstructorTest.class
+org/apache/river/test/spec/io/marshalledinstance/ConvertToMarshalledObjectTest.class
+org/apache/river/test/spec/io/marshalledinstance/Get_ExceptionTest.class
+org/apache/river/test/spec/io/marshalledinstance/Get_NormalTest.class
+org/apache/river/test/spec/io/marshalledinstance/ObjectMethodsTest.class
+org/apache/river/test/spec/io/marshalledinstance/ObjectMethodsTest$FakeMarshalledInstance.class
+org/apache/river/test/spec/io/util/FakeClassLoader.class
+org/apache/river/test/spec/io/util/FakeIntegrityVerifier.class
+org/apache/river/test/spec/io/util/FakeObject.class
+org/apache/river/test/spec/io/util/FakeObjectEndpoint.class
+org/apache/river/test/spec/io/util/FakeRMIClassLoaderSpi.class

@@ -1,0 +1,3 @@
+org/apache/river/proxy/BasicProxyTrustVerifier.class
+org/apache/river/start/LifeCycle.class
+org/apache/river/start/ServiceProxyAccessor.class

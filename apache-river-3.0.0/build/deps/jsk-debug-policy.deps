@@ -1,0 +1,5 @@
+org/apache/river/tool/DebugDynamicPolicyProvider.class
+org/apache/river/tool/DebugDynamicPolicyProvider$1.class
+org/apache/river/tool/DebugDynamicPolicyProvider$Request.class
+org/apache/river/tool/DebugDynamicPolicyProvider$Request$1.class
+org/apache/river/tool/ProfilingSecurityManager.class

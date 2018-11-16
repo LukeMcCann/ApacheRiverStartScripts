@@ -1,0 +1,8 @@
+net/jini/admin/Administrable.class
+net/jini/discovery/ConstrainableLookupLocator.class
+net/jini/lookup/DiscoveryAdmin.class
+org/apache/river/admin/DestroyAdmin.class
+org/apache/river/config/Config.class
+org/apache/river/proxy/ConstrainableProxyUtil.class
+org/apache/river/start/LifeCycle.class
+org/apache/river/start/ServiceProxyAccessor.class

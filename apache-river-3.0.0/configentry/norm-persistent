@@ -1,0 +1,161 @@
+#/*
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#*/
+
+# non-activatable persistent norm configuration entries
+org.apache.river.norm.persistenceDirectory: String
+org.apache.river.norm.persistenceSnapshotThreshold: int
+org.apache.river.norm.persistenceSnapshotWeight: float
+org.apache.river.norm.recoveredLeasePreparer: net.jini.security.ProxyPreparer
+org.apache.river.norm.recoveredListenerPreparer: net.jini.security.ProxyPreparer
+org.apache.river.norm.recoveredLocatorPreparer: net.jini.security.ProxyPreparer
+#/*
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#*/
+
+# transient norm configuration entries
+org.apache.river.norm.discoveryManager: net.jini.discovery.DiscoveryManagement
+org.apache.river.norm.initialLookupAttributes: net.jini.core.entry.Entry[]
+org.apache.river.norm.initialLookupGroups: String[]
+org.apache.river.norm.initialLookupLocators: net.jini.core.discovery.LookupLocator[]
+org.apache.river.norm.isolateSets: boolean
+org.apache.river.norm.leaseManager: net.jini.lease.LeaseRenewalManager
+org.apache.river.norm.leasePolicy: org.apache.river.landlord.LeasePeriodPolicy
+org.apache.river.norm.leasePreparer: net.jini.security.ProxyPreparer
+org.apache.river.norm.listenerPreparer: net.jini.security.ProxyPreparer
+org.apache.river.norm.locatorPreparer: net.jini.security.ProxyPreparer
+org.apache.river.norm.loginContext: javax.security.auth.login.LoginContext
+org.apache.river.norm.serverExporter: net.jini.export.Exporter
+#/*
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#*/
+
+# JoinManager configuration entries
+net.jini.lookup.JoinManager.discoveryManager: net.jini.discovery.DiscoveryManagement
+net.jini.lookup.JoinManager.leaseManager: net.jini.lease.LeaseRenewalManager
+net.jini.lookup.JoinManager.maxLeaseDuration: long
+net.jini.lookup.JoinManager.registrarPreparer: net.jini.security.ProxyPreparer
+net.jini.lookup.JoinManager.registrationPreparer: net.jini.security.ProxyPreparer
+net.jini.lookup.JoinManager.serviceLeasePreparer: net.jini.security.ProxyPreparer
+net.jini.lookup.JoinManager.taskManager: org.apache.river.thread.TaskManager
+net.jini.lookup.JoinManager.wakeupManager: org.apache.river.thread.WakeupManager
+net.jini.lookup.JoinManager.wakeupRetries: int
+#/*
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#*/
+
+# LeaseRenewalManager configuration entries
+net.jini.lease.LeaseRenewalManager.renewBatchTimeWindow: long
+net.jini.lease.LeaseRenewalManager.roundTripTime: long
+net.jini.lease.LeaseRenewalManager.taskManager: org.apache.river.thread.TaskManager
+#/*
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#*/
+
+# LookupDiscovery configuration entries
+net.jini.discovery.LookupDiscovery.discoveryConstraints: net.jini.core.constraint.MethodConstraints
+net.jini.discovery.LookupDiscovery.finalMulticastRequestInterval: long
+net.jini.discovery.LookupDiscovery.initialMulticastRequestDelayRange: long
+net.jini.discovery.LookupDiscovery.multicastAnnouncementInterval: long
+net.jini.discovery.LookupDiscovery.multicastInterfaceRetryInterval: int
+net.jini.discovery.LookupDiscovery.multicastInterfaces: java.net.NetworkInterface[]
+net.jini.discovery.LookupDiscovery.multicastRequestHost: String
+net.jini.discovery.LookupDiscovery.multicastRequestInterval: long
+net.jini.discovery.LookupDiscovery.multicastRequestMax: int
+net.jini.discovery.LookupDiscovery.registrarPreparer: net.jini.security.ProxyPreparer
+net.jini.discovery.LookupDiscovery.taskManager: org.apache.river.thread.TaskManager
+net.jini.discovery.LookupDiscovery.unicastDelayRange: long
+net.jini.discovery.LookupDiscovery.wakeupManager: org.apache.river.thread.WakeupManager
+#/*
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#*/
+
+# LookupLocatorDiscovery configuration entries
+net.jini.discovery.LookupLocatorDiscovery.initialUnicastDelayRange: long
+net.jini.discovery.LookupLocatorDiscovery.registrarPreparer: net.jini.security.ProxyPreparer
+net.jini.discovery.LookupLocatorDiscovery.taskManager: org.apache.river.thread.TaskManager
+net.jini.discovery.LookupLocatorDiscovery.wakeupManager: org.apache.river.thread.WakeupManager

@@ -1,0 +1,3 @@
+org/apache/river/admin/DestroyAdmin.class
+org/apache/river/qa/harness/KillerImpl_Stub.class
+org/apache/river/qa/harness/VMKiller.class

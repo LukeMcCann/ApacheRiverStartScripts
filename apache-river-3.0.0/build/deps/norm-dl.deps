@@ -1,0 +1,15 @@
+org/apache/river/norm/AbstractProxy.class
+org/apache/river/norm/AdminProxy.class
+org/apache/river/norm/AdminProxy$ConstrainableAdminProxy.class
+org/apache/river/norm/CorruptedStoreException.class
+org/apache/river/norm/GetLeasesResult.class
+org/apache/river/norm/InternalNormException.class
+org/apache/river/norm/NormPermission.class
+org/apache/river/norm/NormProxy.class
+org/apache/river/norm/NormProxy$ConstrainableNormProxy.class
+org/apache/river/norm/NormServer.class
+org/apache/river/norm/ProxyVerifier.class
+org/apache/river/norm/SetProxy.class
+org/apache/river/norm/SetProxy$1.class
+org/apache/river/norm/SetProxy$ConstrainableSetProxy.class
+org/apache/river/norm/StoreException.class

@@ -1,0 +1,7 @@
+org/apache/river/test/impl/start/AbstractStartBaseTest.class
+org/apache/river/test/impl/start/ClassLoaderTest.class
+org/apache/river/test/impl/start/ClasspathTest.class
+org/apache/river/test/impl/start/CodebaseTest.class
+org/apache/river/test/impl/start/SecurityTest.class
+org/apache/river/test/impl/start/SecurityTestNonActivatable.class
+org/apache/river/test/impl/start/TestService.class

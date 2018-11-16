@@ -1,0 +1,7 @@
+net/jini/admin/Administrable.class
+org/apache/river/admin/DestroyAdmin.class
+org/apache/river/qa/harness/KillerImpl.class
+org/apache/river/qa/harness/KillerImpl$1.class
+org/apache/river/qa/harness/KillerImpl$DestroyThread.class
+org/apache/river/qa/harness/KillerImpl_Stub.class
+org/apache/river/qa/harness/VMKiller.class

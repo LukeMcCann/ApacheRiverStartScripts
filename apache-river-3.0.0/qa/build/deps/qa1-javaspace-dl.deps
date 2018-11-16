@@ -1,0 +1,3 @@
+org/apache/river/test/spec/javaspace/conformance/NotifyCounter_Stub.class
+org/apache/river/test/spec/javaspace/conformance/ParticipantImpl_Stub.class
+org/apache/river/test/spec/javaspace/conformance/TestEventListener05_Stub.class

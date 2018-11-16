@@ -1,0 +1,11 @@
+org/apache/river/mahalo/InternalManagerException.class
+org/apache/river/mahalo/MahaloPermission.class
+org/apache/river/mahalo/ProxyVerifier.class
+org/apache/river/mahalo/TxnManager.class
+org/apache/river/mahalo/TxnManagerInternalException.class
+org/apache/river/mahalo/TxnMgrAdminProxy.class
+org/apache/river/mahalo/TxnMgrAdminProxy$1.class
+org/apache/river/mahalo/TxnMgrAdminProxy$ConstrainableTxnMgrAdminProxy.class
+org/apache/river/mahalo/TxnMgrProxy.class
+org/apache/river/mahalo/TxnMgrProxy$1.class
+org/apache/river/mahalo/TxnMgrProxy$ConstrainableTxnMgrProxy.class

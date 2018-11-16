@@ -1,0 +1,5 @@
+org/apache/river/test/share/AttributesUtil.class
+org/apache/river/test/share/AttributesUtil$TestAttr00.class
+org/apache/river/test/share/AttributesUtil$TestAttrSC00.class
+org/apache/river/test/share/DiscoveryServiceUtil$BasicEventListener_Stub.class
+org/apache/river/test/spec/discoveryservice/AbstractBaseTest$LDSEventListener_Stub.class
